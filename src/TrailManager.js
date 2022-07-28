@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react'
 import { collection, query, orderBy, onSnapshot } from 'firebase/firestore'
 import { db } from './firebase'
 
+
 function TrailManager() {
 
   const [openAddModal, setOpenAddModal] = useState(false)
@@ -19,6 +20,7 @@ function TrailManager() {
       })))
     })
   }, [])
+
 
   return (
     <div className='trailManager'>

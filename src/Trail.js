@@ -26,8 +26,8 @@ function Trail({id, name, description, distance, completed}) {
     }
   }
   
-  // function to delete a document from firstore
   const handleDelete = async () => {
+    // awaiting trailDocRef to get info from firestore before deleting
     const trailDocRef = doc(db, 'trails', id)
     try {
       await deleteDoc(trailDocRef)

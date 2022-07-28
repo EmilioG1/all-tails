@@ -11,7 +11,6 @@ function AddTrail({onClose, open}) {
   const [description, setDescription] = useState('')
   const [distance, setDistance] = useState('')
   
-  /* function to add new task to firestore */
   const handleSubmit = async (e) => {
    e.preventDefault()
    try {

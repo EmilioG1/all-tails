@@ -13,7 +13,9 @@
 .trailManager > .trailSubHeader {
   font-size: 28px;
   text-align: center;
-  padding: 10px;
+  width: 35%;
+  margin: auto;
+  padding: 15px 0px 12px 0px;
   font-family: cursive;
   letter-spacing: 1px;
   font-weight: bolder;
