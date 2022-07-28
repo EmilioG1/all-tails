@@ -35,7 +35,7 @@ function AddTrail({onClose, open}) {
           name='name' 
           onChange={(e) => setName(e.target.value)} 
           value={name}
-          placeholder='Enter trail'/>
+          placeholder='Enter trail name'/>
         <input 
           type='number' 
           name='distance' 

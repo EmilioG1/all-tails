@@ -9,10 +9,10 @@ body {
   background-image: url(./img/maplight.jpeg);
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 *{
   margin: 0;
